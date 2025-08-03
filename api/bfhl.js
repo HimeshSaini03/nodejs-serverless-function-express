@@ -58,5 +58,5 @@ export default function handler(req, res) {
   } catch (err) {
     res.status(500).json({ is_success: false, message: 'Something went wrong.' });
   }
-  return "hello world";
+ 
 }
